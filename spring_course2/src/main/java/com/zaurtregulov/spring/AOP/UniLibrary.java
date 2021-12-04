@@ -1,5 +1,7 @@
 package com.zaurtregulov.spring.AOP;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -9,22 +11,25 @@ import org.springframework.stereotype.Component;
 public class UniLibrary extends AbstractLibrary {
     private int i=0;
 
+    // таким образом мы можем работать в одном контексте и вызывать адвайсы при рекурсивном вызове функций
+    @Autowired
+    ApplicationContext context;
+
     //    @Override
     public void getBook() {
         System.out.println("Мы берём книгу из UniLibrary");
         System.out.println("--------------------------------");
 
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class);
-//        UniLibrary ul = context.getBean("uniLibrary", UniLibrary.class);
-//
-//        if (ul.i==0) {
-//            ul.i++;
-//            System.out.println(ul.i);
-////            this.getBook();
-//            ul.getBook();
-//            ul.i=0;
-//        }
-//
+        UniLibrary ul = context.getBean("uniLibrary", UniLibrary.class);
+
+        if (ul.i==0) {
+            ul.i++;
+            System.out.println(ul.i);
+//            this.getBook();
+            ul.getBook();
+            ul.i=0;
+        }
+
 //        context.close();
     }
 

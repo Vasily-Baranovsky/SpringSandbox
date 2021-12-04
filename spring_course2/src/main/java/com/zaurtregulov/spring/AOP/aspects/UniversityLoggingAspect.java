@@ -33,8 +33,8 @@ public class UniversityLoggingAspect {
 //        System.out.println("afterThrowingGetStudentsLoggingAdvice: логируем выброс исключения " + ex);
 //    }
 
-    @After("execution(* getStudents())")
-    public void afterGetStudentsLoggingAdvice() {
-        System.out.println("afterGetStudentsLoggingAdvice: логируем нормальное окончание работы метода или выброс исключения");
-    }
+//    @After("execution(* getStudents())")
+//    public void afterGetStudentsLoggingAdvice() {
+//        System.out.println("afterGetStudentsLoggingAdvice: логируем нормальное окончание работы метода или выброс исключения");
+//    }
 }
