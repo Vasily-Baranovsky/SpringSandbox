@@ -24,13 +24,14 @@ public class LoggingAspect {
 //    @Before("execution(public void get*())")
 //    @Before("execution(public void *(..))") // Любое кол-во любых параметров
 //    @Before("execution(public void getBook(com.zaurtregulov.spring.AOP.Book,..))") // первый параметр Book + после 0 и более других параметров
-    @Before("com.zaurtregulov.spring.AOP.aspects.MyPointCuts.allAddMethods()")
+    //@Before("com.zaurtregulov.spring.AOP.aspects.MyPointCuts.allAddMethods()")
+    @Before("execution(public void getBook())")
     public void beforeAddLoggingAdvice(JoinPoint joinPoint) {
         MethodSignature methodSignature = (MethodSignature)joinPoint.getSignature();
-        System.out.println("methodSignature = "+methodSignature);
-        System.out.println("methodSignature.getMethod = "+methodSignature.getMethod());
-        System.out.println("methodSignature.getReturnType = "+methodSignature.getReturnType());
-        System.out.println("methodSignature.getName = "+methodSignature.getName());
+//        System.out.println("methodSignature = "+methodSignature);
+//        System.out.println("methodSignature.getMethod = "+methodSignature.getMethod());
+//        System.out.println("methodSignature.getReturnType = "+methodSignature.getReturnType());
+//        System.out.println("methodSignature.getName = "+methodSignature.getName());
 
         if(methodSignature.getName().equals("addBook")) {
             Object[] arguments = joinPoint.getArgs();
