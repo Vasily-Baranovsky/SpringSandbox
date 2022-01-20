@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962586cc-d379-4491-82d3-7c3a14163f3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Course/Spring_Course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_course2/spring_course2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringSandbox/com/zaurtregulov/spring/spring_introduction/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringSandbox/com/zaurtregulov/spring/spring_introduction/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringSandbox/com/zaurtregulov/spring/spring_introduction/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringSandbox/com/zaurtregulov/spring/spring_introduction/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringSandbox/com/zaurtregulov/spring/spring_introduction/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Course/Spring_Course.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,8 +156,16 @@
       <workItem from="1642648035415" duration="1718000" />
       <workItem from="1642649890973" duration="1762000" />
       <workItem from="1642652073710" duration="824000" />
-      <workItem from="1642653050602" duration="1293000" />
+      <workItem from="1642653050602" duration="1616000" />
     </task>
+    <task id="LOCAL-00001" summary="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course">
+      <created>1642654636047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642654636047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course" />
+    <option name="LAST_COMMIT_MESSAGE" value="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
