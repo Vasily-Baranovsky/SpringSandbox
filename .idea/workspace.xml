@@ -4,8 +4,101 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962586cc-d379-4491-82d3-7c3a14163f3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Spring_Course/Spring_Course.iml" beforeDir="false" />
+    <list default="true" id="962586cc-d379-4491-82d3-7c3a14163f3c" name="Changes" comment="Chapter 3. Hibernate. Lections 37-45">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/byte-buddy-1.10.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate_test/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/resources/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/resources/applicationContext3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/spring_course2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/spring_course2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/AbstractLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/AbstractLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/SchoolLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/SchoolLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/UniLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/UniLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/ExceptionHandlingAspekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/ExceptionHandlingAspekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/MyPointCuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/MyPointCuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/NewLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/NewLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/SecurityAspekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/SecurityAspekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/AOP/aspects/UniversityLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter02_AOP/aspects/UniversityLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/ConfigWithAnnotations1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/ConfigWithAnnotations1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/ScopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/ScopeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/spring_introduction/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter01_spring_introduction/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/target/classes/applicationContext3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/AbstractLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/SchoolLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/UniLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/ExceptionHandlingAspekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/LoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/MyPointCuts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/NewLoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/SecurityAspekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/AOP/aspects/UniversityLoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/ConfigWithAnnotations1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/ScopeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_course2/target/classes/com/zaurtregulov/spring/spring_introduction/Test6.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +112,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/spring_course2/pom.xml" root0="FORCE_HIGHLIGHTING" />
@@ -45,26 +151,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4585366" />
-    <property name="settings.editor.selected.configurable" value="trusted.hosts" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vabarano\IdeaProjects\SpringSandbox\spring_course2\resources" />
+      <recent name="C:\Users\vabarano\IdeaProjects\SpringSandbox\spring_course2\src\main\java" />
       <recent name="C:\Users\vabarano\IdeaProjects\SpringSandbox\spring_course2\src\main\java\com\zaurtregulov\spring" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hibernate_test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="Intro_Test1" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.spring_introduction.Test1" />
+  <component name="RunManager" selected="Application.Test5 (1)">
+    <configuration name="Test2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_test.Test2" />
       <module name="spring_course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zaurtregulov.spring.AOP.*" />
+          <option name="PATTERN" value="hibernate_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.spring_introduction.ScopeTest" />
+    <configuration name="Test3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_test.Test3" />
       <module name="spring_course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zaurtregulov.spring.spring_introduction.*" />
+          <option name="PATTERN" value="hibernate_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.AOP.Test1" />
+    <configuration name="Test4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.chapter01_spring_introduction.Test4" />
       <module name="spring_course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zaurtregulov.spring.AOP.*" />
+          <option name="PATTERN" value="com.zaurtregulov.spring.chapter01_spring_introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.spring_introduction.Test1" />
-      <module name="SpringSandbox" />
+    <configuration name="Test5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.chapter01_spring_introduction.Test5" />
+      <module name="spring_course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zaurtregulov.spring.spring_introduction.*" />
+          <option name="PATTERN" value="com.zaurtregulov.spring.chapter01_spring_introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zaurtregulov.spring.AOP.Test3" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_test.Test5" />
       <module name="spring_course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zaurtregulov.spring.AOP.*" />
+          <option name="PATTERN" value="hibernate_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +234,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.Intro_Test1" />
-      <item itemvalue="Application.ScopeTest" />
-      <item itemvalue="Application.Test1 (2)" />
-      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test2 (1)" />
+      <item itemvalue="Application.Test3 (1)" />
+      <item itemvalue="Application.Test5" />
+      <item itemvalue="Application.Test4 (1)" />
+      <item itemvalue="Application.Test5 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test1 (2)" />
-        <item itemvalue="Application.Intro_Test1" />
-        <item itemvalue="Application.ScopeTest" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test5 (1)" />
+        <item itemvalue="Application.Test4 (1)" />
+        <item itemvalue="Application.Test3 (1)" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +265,11 @@
       <workItem from="1642648035415" duration="1718000" />
       <workItem from="1642649890973" duration="1762000" />
       <workItem from="1642652073710" duration="824000" />
-      <workItem from="1642653050602" duration="1616000" />
+      <workItem from="1642653050602" duration="1779000" />
+      <workItem from="1642655020612" duration="3509000" />
+      <workItem from="1642742360533" duration="5038000" />
+      <workItem from="1643163023041" duration="601000" />
+      <workItem from="1643174718581" duration="9613000" />
     </task>
     <task id="LOCAL-00001" summary="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course">
       <created>1642654636047</created>
@@ -165,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642654636047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1642654719860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642654719860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +294,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course" />
-    <option name="LAST_COMMIT_MESSAGE" value="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Chapter 3. Hibernate. Lections 37-45" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3. Hibernate. Lections 37-45" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
