@@ -1,11 +1,11 @@
-package hibernate_test;
+package hibernate01_intro;
 
-import hibernate_test.entity.Employee;
+import hibernate01_intro.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class Test5 {
+public class Test4 {
     public static void main(String[] args) {
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
@@ -13,15 +13,14 @@ public class Test5 {
                 .buildSessionFactory();
 
         Session session;
-        Employee emp;
         try {
             session = factory.getCurrentSession();
             session.beginTransaction();
-//            emp = session.get(Employee.class, 1);
-//            session.delete(emp);
 
-            session.createQuery("delete Employee where name='Aleksandr'").executeUpdate();
+//            Employee emp = session.get(Employee.class, 1);
+//            emp.setSalary(1500);
 
+            session.createQuery("update Employee set salary=1000 where name='Aleksandr'").executeUpdate();
 
             session.getTransaction().commit();  // здесь транзакция закрывается
             System.out.println("Done!");

@@ -1,4 +1,4 @@
-package hibernate_test.entity;
+package hibernate03_one_to_many_bi.entity;
 
 import javax.persistence.*;
 
@@ -8,35 +8,36 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Column(name="id")      // better to write column name (name="id"), but it's not obligatory
+    @Column(name="id")
     private int id;
-    @Column(name="name")    // if column name and variable name are equal, it's allowed not to write (name="name")
+    @Column(name="name")
     private String firstname;
     @Column
     private String surname;
     @Column
-    private String department;
-    @Column
     private int salary;
 
-    public Employee() {}
+    @ManyToOne(cascade=CascadeType.ALL)
+//    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.MERGE})
+    @JoinColumn(name="department_id")
+    private Department department;
 
     @Override
     public String toString() {
         return "Employee{" +
-                "id="+id+
-                ", name='"+ firstname +"'"+
-                ", surname='"+surname+"'"+
-                ", department='"+department+"'"+
-                ", salary="+salary +
-                "}";
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", surname='" + surname + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 
+    public Employee() {
+    }
 
-    public Employee(String name, String surname, String department, int salary) {
-        this.firstname = name;
+    public Employee(String firstname, String surname, int salary) {
+        this.firstname = firstname;
         this.surname = surname;
-        this.department = department;
         this.salary = salary;
     }
 
@@ -64,19 +65,19 @@ public class Employee {
         this.surname = surname;
     }
 
-    public String getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-
     public int getSalary() {
         return salary;
     }
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 }
