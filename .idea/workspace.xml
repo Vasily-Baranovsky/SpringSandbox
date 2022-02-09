@@ -5,25 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962586cc-d379-4491-82d3-7c3a14163f3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate01_intro/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate01_intro/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate02_one_to_one/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate02_one_to_one/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate02_one_to_one/entity/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Detail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate02_one_to_one/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate03_one_to_many_bi/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate03_one_to_many_bi/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate03_one_to_many_bi/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate04_one_to_many_uni/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate04_one_to_many_uni/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate04_one_to_many_uni/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate05_many_to_many/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate05_many_to_many/entity/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_course2/src/main/java/hibernate05_many_to_many/entity/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_course2/src/main/java/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Section.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_course_mvc/target/spring_course_mvc/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_course2/src/main/java/hibernate04_one_to_many_uni/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_course_mvc" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4585366" />
@@ -101,7 +101,7 @@
       <recent name="hibernate_test2.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1 (3)">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate03_one_to_many_bi.Test1" />
       <module name="spring_course2" />
@@ -198,11 +198,9 @@
       <item itemvalue="Application.Test2" />
       <item itemvalue="Application.Test1 (1)" />
       <item itemvalue="Application.Test1 (2)" />
-      <item itemvalue="Application.Test1 (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1 (3)" />
         <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.Test1 (2)" />
         <item itemvalue="Application.Test2" />
@@ -229,7 +227,8 @@
       <workItem from="1642655020612" duration="3509000" />
       <workItem from="1642742360533" duration="5038000" />
       <workItem from="1643163023041" duration="601000" />
-      <workItem from="1643174718581" duration="31537000" />
+      <workItem from="1643174718581" duration="32383000" />
+      <workItem from="1644385541227" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="После НГ &quot;пропал&quot; проект Maven. Пришлось всё переимпортировать заново. Заодно исключил неработающий проект Spring_Course">
       <created>1642654636047</created>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644379863715</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all hibernate packages renamed by adding &quot;chapter03_&quot; to its names and moved to the common com.zaurtregulov.spring package">
+      <created>1644383544208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644383544208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +278,8 @@
     <MESSAGE value="Chapter 3. Hibernate. Lections 37-45" />
     <MESSAGE value="Chapter 3. Hibernate. Lections 37-45. &#10;+ changes in previous files due to reconfiguration of the project (didn't work after New Year holidays)" />
     <MESSAGE value="Chapter 3. Hibernate. Lections 46-54." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3. Hibernate. Lections 46-54." />
+    <MESSAGE value="all hibernate packages renamed by adding &quot;chapter03_&quot; to its names and moved to the common com.zaurtregulov.spring package" />
+    <option name="LAST_COMMIT_MESSAGE" value="all hibernate packages renamed by adding &quot;chapter03_&quot; to its names and moved to the common com.zaurtregulov.spring package" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
