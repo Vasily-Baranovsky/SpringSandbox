@@ -1,6 +1,6 @@
-package hibernate01_intro;
+package com.zaurtregulov.spring.chapter03_hibernate01_intro;
 
-import hibernate01_intro.entity.Employee;
+import com.zaurtregulov.spring.chapter03_hibernate01_intro.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

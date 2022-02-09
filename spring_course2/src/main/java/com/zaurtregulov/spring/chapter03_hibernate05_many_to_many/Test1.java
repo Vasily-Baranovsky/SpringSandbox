@@ -1,7 +1,7 @@
-package hibernate05_many_to_many;
+package com.zaurtregulov.spring.chapter03_hibernate05_many_to_many;
 
-import hibernate05_many_to_many.entity.Child;
-import hibernate05_many_to_many.entity.Section;
+import com.zaurtregulov.spring.chapter03_hibernate05_many_to_many.entity.Child;
+import com.zaurtregulov.spring.chapter03_hibernate05_many_to_many.entity.Section;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

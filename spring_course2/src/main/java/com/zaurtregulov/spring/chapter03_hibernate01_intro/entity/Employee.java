@@ -1,4 +1,4 @@
-package hibernate04_one_to_many_uni.entity;
+package com.zaurtregulov.spring.chapter03_hibernate01_intro.entity;
 
 import javax.persistence.*;
 
@@ -8,31 +8,35 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Column(name="id")
+    @Column(name="id")      // better to write column name (name="id"), but it's not obligatory
     private int id;
-    @Column(name="name")
+    @Column(name="name")    // if column name and variable name are equal, it's allowed not to write (name="name")
     private String firstname;
     @Column
     private String surname;
     @Column
+    private String department;
+    @Column
     private int salary;
+
+    public Employee() {}
 
     @Override
     public String toString() {
         return "Employee{" +
-                "id=" + id +
-                ", firstname='" + firstname + '\'' +
-                ", surname='" + surname + '\'' +
-                ", salary=" + salary +
-                '}';
+                "id="+id+
+                ", name='"+ firstname +"'"+
+                ", surname='"+surname+"'"+
+                ", department='"+department+"'"+
+                ", salary="+salary +
+                "}";
     }
 
-    public Employee() {
-    }
 
-    public Employee(String firstname, String surname, int salary) {
-        this.firstname = firstname;
+    public Employee(String name, String surname, String department, int salary) {
+        this.firstname = name;
         this.surname = surname;
+        this.department = department;
         this.salary = salary;
     }
 
@@ -58,6 +62,14 @@ public class Employee {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
     public int getSalary() {

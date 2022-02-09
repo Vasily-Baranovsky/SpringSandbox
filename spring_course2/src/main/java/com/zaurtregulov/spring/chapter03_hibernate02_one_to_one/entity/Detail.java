@@ -1,4 +1,4 @@
-package hibernate02_one_to_one.entity;
+package com.zaurtregulov.spring.chapter03_hibernate02_one_to_one.entity;
 
 import javax.persistence.*;
 

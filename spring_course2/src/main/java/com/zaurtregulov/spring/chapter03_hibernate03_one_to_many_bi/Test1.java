@@ -1,7 +1,7 @@
-package hibernate03_one_to_many_bi;
+package com.zaurtregulov.spring.chapter03_hibernate03_one_to_many_bi;
 
-import hibernate03_one_to_many_bi.entity.Department;
-import hibernate03_one_to_many_bi.entity.Employee;
+import com.zaurtregulov.spring.chapter03_hibernate03_one_to_many_bi.entity.Department;
+import com.zaurtregulov.spring.chapter03_hibernate03_one_to_many_bi.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

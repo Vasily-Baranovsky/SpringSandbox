@@ -1,4 +1,4 @@
-package hibernate05_many_to_many.entity;
+package com.zaurtregulov.spring.chapter03_hibernate05_many_to_many.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;

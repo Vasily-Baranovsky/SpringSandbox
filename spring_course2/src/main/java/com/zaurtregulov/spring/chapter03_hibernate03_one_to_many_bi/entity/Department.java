@@ -1,4 +1,4 @@
-package hibernate03_one_to_many_bi.entity;
+package com.zaurtregulov.spring.chapter03_hibernate03_one_to_many_bi.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package hibernate04_one_to_many_uni;
+package com.zaurtregulov.spring.chapter03_hibernate04_one_to_many_uni;
 
-import hibernate04_one_to_many_uni.entity.Department;
-import hibernate04_one_to_many_uni.entity.Employee;
+import com.zaurtregulov.spring.chapter03_hibernate04_one_to_many_uni.entity.Department;
+import com.zaurtregulov.spring.chapter03_hibernate04_one_to_many_uni.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
