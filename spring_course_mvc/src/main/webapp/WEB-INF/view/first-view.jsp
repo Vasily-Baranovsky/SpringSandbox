@@ -7,6 +7,9 @@
 <br/>
 <a href="askDetails">Please write your details</a>
 
+<br/>
+<a href="employee/askDetails">Show Spring Form</a>
+
 </body>
 
 </html>
