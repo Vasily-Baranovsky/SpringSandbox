@@ -26,6 +26,17 @@
     </form:select>
     <br/><br/>
 
+<%--    First Variant - hardcoded --%>
+<%--    Which car do you want?--%>
+<%--    BMW <form:radiobutton path="carBrand" value="BMW"/>--%>
+<%--    Audi <form:radiobutton path="carBrand" value="Audi"/>--%>
+<%--    MB <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
+<%--    <br/><br/>--%>
+
+    <%--    Second Variant - dynamic --%>
+    Which car do you want?
+    <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
+    <br/><br/>
     <input type="submit" value="OK"/>
 </form:form>
 </body>
