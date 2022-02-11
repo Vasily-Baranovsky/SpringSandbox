@@ -37,6 +37,19 @@
     Which car do you want?
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
     <br/><br/>
+
+    <%--    First Variant - hardcoded --%>
+<%--    Foreign Language(s)--%>
+<%--    EN <form:checkbox path="lanquages" value="English"/>--%>
+<%--    DE <form:checkbox path="lanquages" value="Deutsch"/>--%>
+<%--    FR <form:checkbox path="lanquages" value="French"/>--%>
+<%--    <br/><br/>--%>
+
+    <%--    Second Variant - dynamic --%>
+    Foreign Language(s)
+    <form:checkboxes path="lanquages" items="${employee.languageList}"/>
+    <br/><br/>
+
     <input type="submit" value="OK"/>
 </form:form>
 </body>
