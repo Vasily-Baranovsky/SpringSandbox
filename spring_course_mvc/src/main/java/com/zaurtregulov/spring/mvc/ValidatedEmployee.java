@@ -1,11 +1,18 @@
 package com.zaurtregulov.spring.mvc;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class Employee {
+public class ValidatedEmployee {
+    @Size(min=2, message = "name must be min 2 symbols")
     private String name;
+//    @NotEmpty(message = "surname is required field")
+    @NotBlank(message = "surname is required field")
     private String surname;
     private int salary;
     private String department;
@@ -15,7 +22,7 @@ public class Employee {
     private String[] lanquages;
     private Map<String, String> languageList;
 
-    public Employee() {
+    public ValidatedEmployee() {
         departments = new HashMap<>();
         departments.put("IT", "Information Technology");
         departments.put("HR", "Human Resources");
