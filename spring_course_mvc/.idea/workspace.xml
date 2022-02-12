@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring_course_mvc:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d0609fd-aff2-4ad1-a50a-7c555cf6446a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/java/com/zaurtregulov/spring/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/java/com/zaurtregulov/spring/mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/java/com/zaurtregulov/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/java/com/zaurtregulov/spring/mvc_hibernate_aop/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/ConfigWithAnnotations1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/ScopeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/AbstractLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/SchoolLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/UniLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/ExceptionHandlingAspekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/LoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/MyPointCuts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/NewLoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/SecurityAspekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/UniversityLoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Detail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Section.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course2/target/test-classes/com/zaurtregulov/spring/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_course_mvc_hibernate_aop/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="24rMT8e5iZ2upFkVvTWl4mjrV42" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_course2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vabarano\IdeaProjects\SpringSandbox\spring_course_mvc\src\main\webapp\WEB-INF\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zaurtregulov.spring.mvc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring_course_mvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_course_mvc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d928815f-ce88-4f94-8356-9aa1c7b0dc33" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54105" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring_course_mvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d0609fd-aff2-4ad1-a50a-7c555cf6446a" name="Changes" comment="" />
+      <created>1644384265553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644384265553</updated>
+      <workItem from="1644384267953" duration="867000" />
+      <workItem from="1644385336497" duration="6000" />
+      <workItem from="1644385678197" duration="20206000" />
+      <workItem from="1644643720043" duration="46000" />
+      <workItem from="1644645032629" duration="2002000" />
+    </task>
+    <task id="LOCAL-00001" summary="Chapter 4. Spring MVC. First working Spring MVC application">
+      <created>1644385964813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644385964813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Chapter 4. Spring MVC. First working Spring MVC application + Class &#9;hierarchy">
+      <created>1644422737140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644422737140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Chapter 4. Spring MVC. Working MVC application with the first-view.jsp">
+      <created>1644470807271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644470807271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Chapter 4. Spring MVC. Lection 58 - using views">
+      <created>1644473359305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644473359305</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chapter 4. Spring MVC. Lection 59 - Model">
+      <created>1644500382239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644500382239</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chapter 4. Spring MVC. Lection 60 - аннотация @RequestParam">
+      <created>1644500630890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644500630890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chapter 4. Spring MVC. Lection 61 - аннотация @RequestMapping для всего Controller класса (а не только для методов)">
+      <created>1644500988679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644500988679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Chapter 4. Spring MVC. Lection 62 - Spring MVC форма input">
+      <created>1644503179353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644503179353</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма select">
+      <created>1644553980157</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644553980157</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма radiobutton">
+      <created>1644554836712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644554836712</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма checkbox">
+      <created>1644556274473</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644556274473</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chapter 4. Spring MVC. Lection 66 - Spring MVC валидация данных @Size, @NotEmpty, @NotBlank">
+      <created>1644558210980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644558210980</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Chapter 4. Spring MVC. Lection 67 - Spring MVC валидация данных @Min, @Max, @Pattern">
+      <created>1644639990743</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644639990743</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Chapter 4. Spring MVC. Lection 68 - Spring MVC валидация данных: Создание собственной аннотации @CheckEmail">
+      <created>1644641654040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644641654040</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chapter 4. Spring MVC. First working Spring MVC application" />
+    <MESSAGE value="Chapter 4. Spring MVC. First working Spring MVC application + Class &#9;hierarchy" />
+    <MESSAGE value="Chapter 4. Spring MVC. Working MVC application with the first-view.jsp" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 58 - using views" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 59 - Model" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 60 - аннотация @RequestParam" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 61 - аннотация @RequestMapping для всего Controller класса (а не только для методов)" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 62 - Spring MVC форма input" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма select" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма radiobutton" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 63 - Spring MVC форма checkbox" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 63 - Spring MVC валидация данных @Size, @NotEmpty, @NotBlank" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 66 - Spring MVC валидация данных @Size, @NotEmpty, @NotBlank" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 67 - Spring MVC валидация данных @Min, @Max, @Pattern" />
+    <MESSAGE value="Chapter 4. Spring MVC. Lection 68 - Spring MVC валидация данных: Создание собственной аннотации @CheckEmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 4. Spring MVC. Lection 68 - Spring MVC валидация данных: Создание собственной аннотации @CheckEmail" />
+  </component>
+</project>
