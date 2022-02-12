@@ -26,6 +26,8 @@ Language(s):
 </ul>
 Phone number:  ${validated_employee.phoneNumber}
 <br/>
+Email:  ${validated_employee.email}
+<br/>
 </body>
 
 </html>
