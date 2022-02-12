@@ -14,6 +14,7 @@
     <form:errors path="surname"/>
     <br/><br/>
     Salary <form:input path="salary"/>
+    <form:errors path="salary"/>
     <br/><br/>
 <%--    Second Variant - dynamic --%>
     Department <form:select path="department">
@@ -29,6 +30,9 @@
     <%--    Second Variant - dynamic --%>
     Foreign Language(s)
     <form:checkboxes path="lanquages" items="${validated_employee.languageList}"/>
+    <br/><br/>
+    Phone number <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
     <br/><br/>
 
     <input type="submit" value="OK"/>

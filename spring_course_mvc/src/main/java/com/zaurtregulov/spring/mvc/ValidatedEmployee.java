@@ -1,9 +1,7 @@
 package com.zaurtregulov.spring.mvc;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -14,6 +12,8 @@ public class ValidatedEmployee {
 //    @NotEmpty(message = "surname is required field")
     @NotBlank(message = "surname is required field")
     private String surname;
+    @Min(value=500, message="must be greater than 499")
+    @Max(value=1000, message="must be less than 1001")
     private int salary;
     private String department;
     private Map<String, String> departments;
@@ -21,6 +21,8 @@ public class ValidatedEmployee {
     private Map<String, String> carBrands;
     private String[] lanquages;
     private Map<String, String> languageList;
+    @Pattern(regexp="[0-9]{3}-[0-9]{2}-[0-9]{2}", message="please use pattern XXX-XX-XX")
+    private String phoneNumber;
 
     public ValidatedEmployee() {
         departments = new HashMap<>();
@@ -41,11 +43,14 @@ public class ValidatedEmployee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "ValidatedEmployee{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", salary=" + salary +
                 ", department='" + department + '\'' +
+                ", carBrand='" + carBrand + '\'' +
+                ", lanquages=" + Arrays.toString(lanquages) +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
 
@@ -119,5 +124,13 @@ public class ValidatedEmployee {
 
     public void setLanguageList(Map<String, String> languageList) {
         this.languageList = languageList;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

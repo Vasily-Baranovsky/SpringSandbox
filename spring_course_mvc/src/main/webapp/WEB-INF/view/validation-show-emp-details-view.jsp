@@ -24,6 +24,8 @@ Language(s):
         <li>${lang}</li>
     </c:forEach>
 </ul>
+Phone number:  ${validated_employee.phoneNumber}
+<br/>
 </body>
 
 </html>

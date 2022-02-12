@@ -23,7 +23,7 @@ public class ValidationController {
     public String showEmpDetails(@Valid @ModelAttribute("validated_employee") ValidatedEmployee emp,
                                  BindingResult bindingResult) {
 
-        System.out.println("surname length = "+emp.getSurname().length());
+//        System.out.println("surname length = "+emp.getSurname().length());
 
         if (bindingResult.hasErrors()) {
             return "validation-ask-emp-details-view";
