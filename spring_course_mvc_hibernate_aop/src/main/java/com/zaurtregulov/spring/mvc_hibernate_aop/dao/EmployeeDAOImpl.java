@@ -6,7 +6,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -24,14 +23,17 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
         // второй вариант
         Query<Employee> query = session.createQuery("from Employee", Employee.class);
-        List<Employee> allEmployees = query.getResultList();
-
-        return allEmployees;
+        return query.getResultList();
     }
 
     @Override
     public void saveEmployee(Employee emp) {
         Session session = sessionFactory.getCurrentSession();
-        session.save(emp);
+        session.saveOrUpdate(emp);
+    }
+
+    @Override
+    public Employee getEmployeeById(int id) {
+        return sessionFactory.getCurrentSession().get(Employee.class, id);
     }
 }
