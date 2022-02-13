@@ -10,4 +10,6 @@ public interface EmployeeService {
     void saveEmployee(Employee emp);
 
     Employee getEmployeeById(int id);
+
+    void deleteEmployeeById(int id);
 }
