@@ -42,4 +42,14 @@ public class MyRESTController {
         employeeService.saveEmployee(employee);
         return employee;
     }
+
+    @DeleteMapping("/employees/{id}")
+    public String deleteEmployee(@PathVariable int id) {
+        if (employeeService.getEmployeeById(id) == null) {
+            throw new NoSuchEmployeeException("There is no employee with ID="+id);
+        }
+
+        employeeService.deleteEmployeeById(id);
+        return "Employee with ID="+id+" was deleted";
+    }
 }
