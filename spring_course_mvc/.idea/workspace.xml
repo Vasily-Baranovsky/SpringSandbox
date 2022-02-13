@@ -10,56 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0609fd-aff2-4ad1-a50a-7c555cf6446a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/ConfigWithAnnotations1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/MyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/ScopeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter01_spring_introduction/Test6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/AbstractLibrary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/MyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/SchoolLibrary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/UniLibrary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/University.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/ExceptionHandlingAspekt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/MyPointCuts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/NewLoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/SecurityAspekt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter02_AOP/aspects/UniversityLoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate01_intro/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Detail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate02_one_to_one/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate03_one_to_many_bi/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate04_one_to_many_uni/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/classes/com/zaurtregulov/spring/chapter03_hibernate05_many_to_many/entity/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course2/target/test-classes/com/zaurtregulov/spring/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/ValidationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/ValidationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/validation-ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/validation-ask-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_course2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -210,6 +164,7 @@
       <workItem from="1644385678197" duration="20206000" />
       <workItem from="1644643720043" duration="46000" />
       <workItem from="1644645032629" duration="2002000" />
+      <workItem from="1644728409502" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 4. Spring MVC. First working Spring MVC application">
       <created>1644385964813</created>
