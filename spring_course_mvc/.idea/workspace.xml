@@ -10,10 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d0609fd-aff2-4ad1-a50a-7c555cf6446a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/src/main/java/com/zaurtregulov/spring/rest/configuration/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/src/main/java/com/zaurtregulov/spring/rest/configuration/MyWebInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_course_rest/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/ValidationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/ValidationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/validation-ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/validation-ask-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +175,7 @@
       <workItem from="1644385678197" duration="20206000" />
       <workItem from="1644643720043" duration="46000" />
       <workItem from="1644645032629" duration="2002000" />
-      <workItem from="1644728409502" duration="1986000" />
+      <workItem from="1644728409502" duration="3126000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 4. Spring MVC. First working Spring MVC application">
       <created>1644385964813</created>
@@ -264,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644641654040</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Chapter 6. Spring REST. Lection 78 - HTTP методы GET и POST. Альтернативные аннотации для RequestMapping">
+      <created>1644731347092</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644731347092</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +304,7 @@
     <MESSAGE value="Chapter 4. Spring MVC. Lection 66 - Spring MVC валидация данных @Size, @NotEmpty, @NotBlank" />
     <MESSAGE value="Chapter 4. Spring MVC. Lection 67 - Spring MVC валидация данных @Min, @Max, @Pattern" />
     <MESSAGE value="Chapter 4. Spring MVC. Lection 68 - Spring MVC валидация данных: Создание собственной аннотации @CheckEmail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 4. Spring MVC. Lection 68 - Spring MVC валидация данных: Создание собственной аннотации @CheckEmail" />
+    <MESSAGE value="Chapter 6. Spring REST. Lection 78 - HTTP методы GET и POST. Альтернативные аннотации для RequestMapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6. Spring REST. Lection 78 - HTTP методы GET и POST. Альтернативные аннотации для RequestMapping" />
   </component>
 </project>
