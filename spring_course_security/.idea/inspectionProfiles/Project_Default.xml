@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="junit:junit" />
+          <option value="org.springframework:spring-webmvc" />
+          <option value="org.springframework.security:spring-security-web" />
+          <option value="org.springframework.security:spring-security-config" />
+          <option value="org.springframework.security:spring-security-taglibs" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
