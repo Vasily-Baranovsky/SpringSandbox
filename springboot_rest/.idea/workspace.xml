@@ -4,42 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2afbd083-ab85-4486-9b8e-a1da35513146" name="Changes" comment="Chapter 8. Spring Boot. Lection 96 - Создание Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest">
-      <change afterPath="$PROJECT_DIR$/../spring_course_rest/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/spring_course_springboot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/src/main/java/com/zaurtregulov/spring/springboot/spring_course_springboot/SpringCourseSpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_course_springboot/src/test/java/com/zaurtregulov/spring/springboot/spring_course_springboot/SpringCourseSpringbootApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/SpringbootRestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zaurtregulov/spring/springboot/springboot_rest/SpringbootRestApplicationTests.java" afterDir="false" />
+    <list default="true" id="2afbd083-ab85-4486-9b8e-a1da35513146" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring_course_security/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/controller/MyRESTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_course_springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +29,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -79,12 +60,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vabarano\IdeaProjects\SpringSandbox\springboot_rest\src\main\java\com\zaurtregulov\spring\springboot\springboot_rest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zaurtregulov.spring.springboot.springboot_rest.controller" />
+      <recent name="com.zaurtregulov.spring.springboot.springboot_rest.entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SpringbootRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -103,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645952321663</updated>
-      <workItem from="1645952323045" duration="345000" />
+      <workItem from="1645952323045" duration="3266000" />
     </task>
+    <task id="LOCAL-00001" summary="Chapter 8. Spring Boot. Lection 96 - Создание Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest">
+      <created>1645952781038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645952781038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
