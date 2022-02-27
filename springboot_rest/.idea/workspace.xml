@@ -4,27 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2afbd083-ab85-4486-9b8e-a1da35513146" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring_course_security/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/controller/MyRESTController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_course_springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_course_springboot/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2afbd083-ab85-4486-9b8e-a1da35513146" name="Changes" comment="Chapter 8. Spring Boot. Lection 98 - Создание REST API. Часть 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/controller/MyRESTController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest/service/EmployeeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -69,7 +75,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/springboot/springboot_rest" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645952321663</updated>
-      <workItem from="1645952323045" duration="3266000" />
+      <workItem from="1645952323045" duration="4955000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 8. Spring Boot. Lection 96 - Создание Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest">
       <created>1645952781038</created>
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645952781038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter 8. Spring Boot. Lection 97 - Создание REST API. Часть 1">
+      <created>1645955864316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645955864316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 8. Spring Boot. Lection 96 - Создания Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest" />
     <MESSAGE value="Chapter 8. Spring Boot. Lection 96 - Создание Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8. Spring Boot. Lection 96 - Создание Spring Boot приложения. Два пути: 1 - Idea - spring_course_springboot; 2 - https://start.spring.io - springboot_rest" />
+    <MESSAGE value="Chapter 8. Spring Boot. Lection 97 - Создание REST API. Часть 1" />
+    <MESSAGE value="Chapter 8. Spring Boot. Lection 98 - Создание REST API. Часть 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8. Spring Boot. Lection 98 - Создание REST API. Часть 2" />
   </component>
 </project>

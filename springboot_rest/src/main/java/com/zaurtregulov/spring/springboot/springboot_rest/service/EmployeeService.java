@@ -9,9 +9,9 @@ import java.util.List;
 public interface EmployeeService {
     List<Employee> getAllEmployees();
 
-//    void saveEmployee(Employee emp);
-//
-//    Employee getEmployeeById(int id);
-//
-//    void deleteEmployeeById(int id);
+    void saveEmployee(Employee emp);
+
+    Employee getEmployeeById(int id);
+
+    void deleteEmployeeById(int id);
 }
